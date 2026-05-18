@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faculty Monthly Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Faculty Monthly Report Generator</h1>
+
+    <input type="text" id="facultyName" placeholder="Faculty Name">
+    <input type="text" id="department" placeholder="Department">
+    <input type="text" id="month" placeholder="Month">
+    <input type="number" id="classesHandled" placeholder="Classes Handled">
+    <input type="number" id="hoursWorked" placeholder="Hours Worked">
+    <textarea id="activities" placeholder="Activities"></textarea>
+
+    <button onclick="submitReport()">Submit Report</button>
+
+    <h2>Submitted Reports</h2>
+    <div id="reportList"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
